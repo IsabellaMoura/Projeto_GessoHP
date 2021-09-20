@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Isabella Alves">
+    <meta name="viewport" content="widht=device-widht, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="img/logo___copia_sFr_1.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">    
+    <title>Produtos - Gesso HP e Decorações</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <img src="img/logo.jpg" width="125px">
+        </div>
+        <nav>
+            <ul id="MenuItems"> 
+                <li><a href="index.html">Home</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+            </ul>
+        </nav>
+        <a href="contato.html #contato"><img src="img/cart.png"  width="30px" height="30px" ></a>
+        <img src="img/menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+</div>
+ 
+    <div class="small-container">
+        <div class="row">
+            <h2>Todos produtos</h2>
+            <select onchange="location.href=this.value">
+                <option value="produtos.html">Produtos em geral</option>
+                <option value="produtos-detalhes.html">Molduras</option>
+                <option value="produtos-detalhes2.html">Placas 3D</option>
+            </select>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="img/produto1.jpg">
+                <h4>Saco de Gesso 40kg</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>R$25,00</p>
+            </div>
+            <div class="col-4">
+                <img src="img/produto2.jpg">
+                <h4>Saco de Gesso Cola 5kg</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>R$20,00</p>
+            </div>
+            <div class="col-4">
+                <img src="img/produto3">
+                <h4>Placa Drywall</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>R$30,00</p>
+            </div>
+<div class="col-4">
+    <img src="img/placa1.jpg">
+    <h4>Modelo 1</h4>
+    <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+    </div>
+    <p>A partir de R$5,00</p>
+</div>
+<div class="col-4">
+    <img src="img/placa2.jfif">
+    <h4>Modelo 2</h4>
+    <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+    </div>
+    <p>A partir de R$5,00</p>
+</div>
+<div class="col-4">
+    <img src="img/placa3.jpg">
+    <h4>Modelo 3</h4>
+    <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+    </div>
+    <p>A partir de R$5,00</p>
+</div>
+<div class="col-4">
+    <img src="img/placa4.jpg">
+    <h4>Modelo 4</h4>
+    <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+    </div>
+    <p>A partir de R$5,00</p>
+</div>
+<div class="col-4">
+    <img src="img/placa5.jpg">
+    <h4>Modelo 5</h4>
+    <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+    </div>
+    <p>A partir de R$5,00</p>
+</div>
+<div class="col-4">
+    <img src="img/placa6.jpg">
+    <h4>Modelo 6</h4>
+    <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+    </div>
+    <p>A partir de R$5,00</p>
+</div>
+<div class="col-4">
+    <img src="img/placa7.jpg">
+    <h4>Modelo 7</h4>
+    <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+    </div>
+    <p>A partir de R$5,00</p>
+</div>
+<div class="col-4">
+    <img src="img/placa8.jpg">
+    <h4>Modelo 8</h4>
+    <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+    </div>
+    <p>A partir de R$5,00</p>
+</div>
+<div class="col-4">
+    <img src="img/placa9.jpg">
+    <h4>Modelo 9</h4>
+    <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+    </div>
+    <p>A partir de R$5,00</p>
+</div>
+</div>    
+    <div class="page-btn">
+        <a href="produtos.html"><span>1</span></a>
+        <a href="produtos2.html"><span>2</span></a>
+        <span>&#8594;</span>
+    </div>
+</div>
+
+
+<!-- footer -->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <img src="img/logo.jpg">
+                <p>Bem vindo ao website do Gesso HP e Decorações.</p>
+            </div>
+            <div class="footer-col-2">
+                <h3>Useful links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                </ul>
+            </div>
+            <div class="footer-col-3">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><a href="https://api.whatsapp.com/send?phone=5511947970204">Whatsapp</a></li>
+                    <li><a href="https://www.facebook.com/humberto.gessohp.9/">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/gessohpdecoracoes/">Instagram</a></li>
+                    <li><a href="https://www.google.com/maps/uv?pb=!1s0x94ce686baaa3fc21%3A0x76748b93cca48fd5!3m1!7e115!4s%2Fmaps%2Fplace%2Fgesso%2Bhp%2F%40-23.6304995%2C-46.4945164%2C3a%2C75y%2C156.81h%2C90t%2Fdata%3D*213m4*211e1*213m2*211saBrI7eLS5AEDq93rvnlfSQ*212e0*214m2*213m1*211s0x94ce686baaa3fc21%3A0x76748b93cca48fd5%3Fsa%3DX!5sgesso%20hp%20-%20Pesquisa%20Google!15sCgIgAQ&imagekey=!1e2!2saBrI7eLS5AEDq93rvnlfSQ&hl=pt-BR&sa=X&ved=2ahUKEwjF8ZG4qP3yAhXZrpUCHdsHBfEQpx96BAhNEAg">Google</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2021 - Gesso HP e Decorações</p>
+    </div>
+</div>
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px"
+        }
+        else
+        {
+            MenuItems.style.maxHeight = "0px"
+        }
+    }
+</script>
+</body>
+</html>
